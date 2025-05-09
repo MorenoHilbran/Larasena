@@ -15,6 +15,11 @@ html {
   }
 }
 
+
+.shapechanger-container {
+  @apply absolute left-full ml-3 glassmorphism p-3 w-[320px] justify-center items-center h-[320px] flex flex-col rounded-md;
+}
+
 .app {
   @apply relative w-full h-screen overflow-hidden;
 }

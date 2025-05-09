@@ -2,11 +2,11 @@ import CustomButton from "./CustomButton";
 import Tab from "./Tab";
 import ColorPicker from "./ColorPicker";
 import FilePicker from "./FilePicker";
-import AIPicker from "./AIPicker";
+import ShapePicker from "./ShapePicker";
 
 export {CustomButton , 
     Tab, 
     ColorPicker, 
     FilePicker, 
-    AIPicker
+    ShapePicker
 };

@@ -10,7 +10,7 @@ import {EditorTabs , FilterTabs , DecalTypes} from '../config/constants'
 
 import { fadeAnimation , slideAnimation } from '../config/motion'
 
-import {AIPicker , ColorPicker, CustomButton , Tab , FilePicker} from '../components'
+import {ShapePicker , ColorPicker, CustomButton , Tab , FilePicker} from '../components'
 
 const Customizer = () => {
 
@@ -26,6 +26,8 @@ const Customizer = () => {
         return <ColorPicker />
       case "filepicker":
         return <FilePicker file={file} setFile={setFile} readFile={readFile} />
+      case "shapepicker":
+        return <ShapePicker />
       default:
         return null
     }
