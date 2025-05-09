@@ -1,4 +1,4 @@
-import { swatch, fileIcon, logoShirt, stylishShirt } from "../assets";
+import { shape ,swatch, fileIcon, logoShirt, stylishShirt } from "../assets";
 
 export const EditorTabs = [
   {
@@ -11,7 +11,7 @@ export const EditorTabs = [
   },
   {
     name: "shapepicker",
-    icon: fileIcon,
+    icon: shape,
   },
 ];
 
