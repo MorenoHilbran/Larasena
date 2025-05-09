@@ -15,8 +15,6 @@ import {ShapePicker , ColorPicker, CustomButton , Tab , FilePicker} from '../com
 const Customizer = () => {
 
   const [file , setFile] = useState('')
-  const [prompt , setPrompt] = useState('')
-  const [generatingImg , setGeneratingImg] = useState(false)
   const [activeEditorTab , setActiveEditorTab] = useState('')
   const [activeFilterTab , setActiveFilterTab] = useState({logoShirt : true, stylishShirt : false})
 
@@ -32,7 +30,6 @@ const Customizer = () => {
         return null
     }
   }
-
 
   const handleActiveFilterTab = (tabName)=>{
     switch(tabName){
@@ -96,12 +93,12 @@ const Customizer = () => {
           </motion.div>
 
           <motion.div className='absolute z-10 top-5 right-5' {...fadeAnimation}>
-            {/* <CustomButton
+            <CustomButton
               type='filled'
               title='Download'
               handleClick={() => downloadCanvasToImage('png')}
-              customStyles='w-fit px-4 py-2.5 font-bold text-sm'
-            /> */}
+              customStyles='w-fit px-4 py-2.5 font-bold text-sm mr-2'
+            />
             <CustomButton
               type='filled'
               title='Go Back'
