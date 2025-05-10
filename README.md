@@ -1,84 +1,71 @@
-👕 Fabricate - Design Your Own 3D Shirt
-Fabricate is a dynamic 3D shirt modeling web application that lets users design, customize, and preview shirts in real time. Whether you're a fashion enthusiast or a brand designer, Fabricate allows you to create personalized shirt designs and see them come to life on a 3D model.
+# 👕 Fabricate - 3D Shirt Modeling Website
 
-🚀 Features
-3D Real-Time Shirt Preview
-View your shirt designs in full 3D with smooth rendering and interaction.
+**Fabricate** is a web-based 3D shirt modeling platform where you can design your own shirt with ease. Customize every detail—from color to logo placement—and see the changes live in an interactive 3D preview. Once you're happy with the design, download the final shirt image to share or use.
 
-Color Customization
-Pick any color for your shirt and instantly see it reflected on the model.
+## 🌟 Features
 
-Upload Custom Logos or Designs
-Upload your own image files to apply as logos or patterns on the shirt.
+* 🎨 **Change Shirt Color**
+  Pick any color using a color picker to customize the entire shirt.
 
-Logo Placement and Transformation
-Move, resize, and rotate logos anywhere on the shirt to fit your style.
+* 🖼️ **Upload Custom Designs or Logos**
+  Upload your own images to apply to the shirt as designs or logos.
 
-Download Your Design
-Export your customized shirt as an image for sharing, printing, or showcasing.
+* 🔄 **Transform Logo (Move, Resize, Rotate)**
+  Easily reposition, scale, and rotate your uploaded logo anywhere on the shirt.
 
-🎨 How It Works
-Choose Shirt Color
-Use the color picker to set the base color of your shirt.
+* 🧅 **Real-Time 3D Preview**
+  View your shirt in a fully interactive 3D model. Rotate, zoom, and explore it from every angle.
 
-Upload Logo or Design
-Drag and drop or browse to upload an image. The uploaded image can be resized and moved to fit anywhere on the shirt.
+* 📅 **Download Final Design**
+  Export and download a snapshot of your customized shirt.
 
-Adjust Your Design
-Rotate, resize, and reposition logos using intuitive drag controls on the 3D model.
+## 🚀 Getting Started
 
-Preview in 3D
-Interact with the 3D shirt model—zoom, pan, and rotate to view from every angle.
+To run the project locally:
 
-Download Final Design
-Once satisfied, click the Download button to save a snapshot of your customized shirt.
-
-🛠️ Tech Stack
-Three.js – For 3D modeling and rendering.
-
-React.js – For dynamic UI and component structure.
-
-Tailwind CSS – For responsive and clean styling.
-
-Framer Motion – For smooth animations.
-
-FileSaver.js / HTML2Canvas – For capturing and downloading shirt designs.
-
-📸 Screenshots
-Coming soon — add screenshots of your app in action.
-
-📦 Installation (For Developers)
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/fabricate.git
+```bash
+git clone https://github.com/your-username/fabricate.git
 cd fabricate
 npm install
 npm run dev
-Then, open http://localhost:3000 in your browser.
+```
 
-📁 Folder Structure (Example)
-bash
-Copy
-Edit
-/fabricate
-│
-├── public/             # Static assets
+Visit `http://localhost:3000` to start designing!
+
+## 🛠️ Tech Stack
+
+* **Three.js** – 3D rendering engine
+* **React.js** – UI and component logic
+* **Tailwind CSS** – Modern styling framework
+* **Framer Motion** – Smooth animations
+* **HTML2Canvas / FileSaver.js** – For downloading shirt designs
+
+## 📁 Project Structure
+
+```
+fabricate/
+├── public/             # Static files and assets
 ├── src/
-│   ├── components/     # UI components
-│   ├── canvas/         # 3D Canvas and models
-│   ├── utils/          # Helper functions
-│   ├── App.jsx
-│   └── main.jsx
-└── ...
-🙌 Contribution
-We welcome contributions! If you have an idea for a feature, bug fix, or improvement:
+│   ├── components/     # Reusable UI components
+│   ├── canvas/         # 3D canvas and rendering logic
+│   ├── utils/          # Helper functions and utilities
+│   ├── App.jsx         # Main app component
+│   └── main.jsx        # Entry point
+```
 
-Fork the repo
+## 📸 Screenshots
 
-Create a new branch
+*Coming Soon: Add screenshots of the shirt customization process and 3D previews here.*
 
-Submit a Pull Request
+## 🤝 Contributing
 
-📄 License
-MIT License
+Contributions are welcome!
+Feel free to fork the project, create a new branch, and submit a pull request.
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Enjoy designing with **Fabricate** — Where creativity meets 3D fashion!
