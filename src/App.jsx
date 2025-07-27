@@ -8,6 +8,7 @@ import Canvas3D from './pages/Canvas3D'
 import MotifLibrary from './pages/MotifLibrary'
 import MyProjects from './pages/MyProjects'
 import NotFound from './pages/NotFound'
+import PrintHistory from './pages/PrintHistory'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 <Route path="canvas" element={<Canvas3D />} />
                 <Route path="motifs" element={<MotifLibrary />} />
                 <Route path="projects" element={<MyProjects />} />
+                <Route path="print-history" element={<PrintHistory />} />
               </Route>
               <Route path="*" element={<NotFound />} />
             </Routes>

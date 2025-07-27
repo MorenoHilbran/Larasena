@@ -20,7 +20,7 @@ const Gallery = () => {
             Batik Design Gallery
           </h1>
           <p className="text-genz-turquoise mt-2">
-            Explore and create beautiful 3D batik patterns
+            Explore and create beautiful batik products
           </p>
         </div>
         

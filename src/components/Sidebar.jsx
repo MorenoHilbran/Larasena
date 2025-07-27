@@ -12,7 +12,8 @@ import {
   Building, 
   Zap,
   Star,
-  Circle
+  Circle,
+  FileText // Tambahan import untuk icon Riwayat Cetak
 } from 'lucide-react'
 
 const Sidebar = () => {
@@ -31,6 +32,12 @@ const Sidebar = () => {
       path: '/motifs',
       icon: Sparkles,
       description: 'Koleksi Batik Indonesia'
+    },
+    {
+      name: 'Riwayat Cetak',
+      path: '/print-history',
+      icon: FileText,
+      description: 'Histori Produksi Batik'
     },
     {
       name: 'Konveksi',

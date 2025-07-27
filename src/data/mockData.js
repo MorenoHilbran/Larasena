@@ -342,3 +342,91 @@ export const genZColors = {
   'neon-green': '#39FF14',
   'purple': '#8B5CF6'
 }
+
+// Print History Mock Data
+export const printHistory = [
+  {
+    id: 1,
+    designName: 'Parang Klasik Modern',
+    thumbnail: '/shirt_baked.glb',
+    konveksiId: 1,
+    konveksiName: 'Batik Nusantara Workshop',
+    orderDate: '2024-01-15',
+    status: 'completed',
+    deliveryEstimate: '2024-01-30',
+    actualDelivery: '2024-01-28',
+    quantity: 25,
+    totalPrice: 1250000,
+    trackingNumber: 'BNW2024001',
+    orderNotes: 'Custom design dengan warna gold dominan'
+  },
+  {
+    id: 2,
+    designName: 'Mega Mendung Fusion',
+    thumbnail: '/1_men_batik_shirt_short.glb',
+    konveksiId: 2,
+    konveksiName: 'Modern Batik Factory',
+    orderDate: '2024-01-20',
+    status: 'in-process',
+    deliveryEstimate: '2024-02-05',
+    actualDelivery: null,
+    quantity: 50,
+    totalPrice: 2000000,
+    trackingNumber: 'MBF2024002',
+    orderNotes: 'Produksi massal untuk event perusahaan'
+  },
+  {
+    id: 3,
+    designName: 'Kawung Contemporary',
+    thumbnail: '/long_sleeve_batik_shirt_2.glb',
+    konveksiId: 3,
+    konveksiName: 'Artisan Collective',
+    orderDate: '2024-01-25',
+    status: 'delivered',
+    deliveryEstimate: '2024-02-10',
+    actualDelivery: '2024-02-08',
+    quantity: 10,
+    totalPrice: 800000,
+    trackingNumber: 'AC2024003',
+    orderNotes: 'Pesanan khusus dengan teknik hand-drawn'
+  },
+  {
+    id: 4,
+    designName: 'Truntum Minimalist',
+    thumbnail: '/women_shirt_batik.glb',
+    konveksiId: 1,
+    konveksiName: 'Batik Nusantara Workshop',
+    orderDate: '2024-02-01',
+    status: 'cancelled',
+    deliveryEstimate: '2024-02-15',
+    actualDelivery: null,
+    quantity: 30,
+    totalPrice: 1500000,
+    trackingNumber: 'BNW2024004',
+    orderNotes: 'Dibatalkan karena perubahan spesifikasi'
+  },
+  {
+    id: 5,
+    designName: 'Sido Mukti Gold',
+    thumbnail: '/long_sleeve_batik_shirt_2 (1).glb',
+    konveksiId: 2,
+    konveksiName: 'Modern Batik Factory',
+    orderDate: '2024-02-05',
+    status: 'pending',
+    deliveryEstimate: '2024-02-20',
+    actualDelivery: null,
+    quantity: 15,
+    totalPrice: 900000,
+    trackingNumber: 'MBF2024005',
+    orderNotes: 'Menunggu konfirmasi design final'
+  }
+]
+
+export const orderStatus = [
+  { value: 'all', label: 'Semua Status', color: 'bg-gray-500' },
+  { value: 'pending', label: 'Menunggu', color: 'bg-yellow-500' },
+  { value: 'in-process', label: 'Dalam Proses', color: 'bg-blue-500' },
+  { value: 'completed', label: 'Selesai', color: 'bg-green-500' },
+  { value: 'delivered', label: 'Terkirim', color: 'bg-purple-500' },
+  { value: 'cancelled', label: 'Dibatalkan', color: 'bg-red-500' }
+]
