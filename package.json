@@ -1,7 +1,8 @@
 {
-  "name": "3dmodel",
+  "name": "larasena-3d-batik",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "3D Batik Modelling Platform with Indonesian Nusantara aesthetic",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -18,6 +19,7 @@
     "react": "^19.1.0",
     "react-color": "^2.19.3",
     "react-dom": "^19.1.0",
+    "react-router-dom": "^7.7.1",
     "three": "^0.176.0",
     "valtio": "^2.1.4"
   },
