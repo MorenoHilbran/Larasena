@@ -1,23 +1,36 @@
-# 👕 Fabricate - Wear your Imagination
+# 🎨 Larasena - 3D Batik Modelling Platform
 
-**Fabricate** is a web-based 3D shirt modeling platform where you can design your own shirt with ease. Customize every detail—from color to logo placement—and see the changes live in an interactive 3D preview. Once you're happy with the design, download the final shirt image to share or use.
-
-![image](https://github.com/user-attachments/assets/ea87a9dd-d277-42ee-a9a8-0a20ae2e0763)
-![image](https://github.com/user-attachments/assets/15ef7985-d688-4f11-bb17-6cfbf5319a8d)
-
+**Larasena** is a modern web application for creating and customizing 3D batik patterns with Indonesian Nusantara aesthetic. Design beautiful batik shirts with traditional and contemporary patterns while connecting with local artisan partners.
 
 ## 🌟 Features
 
-* 🎨 **Change Shirt Color**
-  Pick any color using a color picker to customize the entire shirt.
+### 🎨 **Gallery**
+- Browse beautiful 3D batik designs
+- Filter by categories (Traditional, Contemporary, Modern)
+- Interactive design cards with color palettes
+- Quick access to create new designs
 
-* 🖼️ **Upload Custom Designs or Logos**
-  Upload your own images to apply to the shirt as designs or logos.
+### 🏭 **Konveksi Partners**
+- Connect with trusted batik production partners across Indonesia
+- View partner ratings, specialties, and pricing
+- Filter by location and capabilities
+- Direct contact options
 
-* 🧅 **Real-Time 3D Preview**
-  View your shirt in a fully interactive 3D model. Rotate, zoom, and explore it from every angle.
+### ✨ **3D Canvas Designer**
+- Interactive 3D shirt models (Basic Shirt, Short Sleeve, Long Sleeve, Women's Shirt)
+- AI-powered motif generation
+- Real-time color customization
+- Pattern and texture application
+- Download finished designs
 
-* 📅 **Download Final Design**
+## 🎨 Color Palette (Nusantara Theme)
+
+- **Light Brown**: `#D8B08C` - Primary backgrounds and cards
+- **Deep Red**: `#B33F00` - Primary actions and headers
+- **Cream**: `#F5F0E1` - Secondary backgrounds
+- **Soft Gold**: `#A67B5B` - Accents and highlights
+- **Dark Brown**: `#8B4513` - Text and borders
+- **Warm Beige**: `#E6D3B0` - Subtle backgrounds
   Export and download a snapshot of your customized shirt.
 
 ## 🚀 Getting Started
