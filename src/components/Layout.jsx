@@ -5,7 +5,7 @@ import Sidebar from './Sidebar'
 
 const Layout = () => {
   return (
-    <div className="flex flex-col h-screen bg-nusantara-cream">
+    <div className="flex flex-col h-screen bg-genz-secondary">
       {/* Top Navbar */}
       <Navbar />
       
@@ -15,7 +15,7 @@ const Layout = () => {
         <Sidebar />
         
         {/* Main Content */}
-        <main className="flex-1 overflow-y-auto bg-nusantara-cream p-6">
+        <main className="flex-1 overflow-y-auto bg-genz-secondary p-6">
           <Outlet />
         </main>
       </div>

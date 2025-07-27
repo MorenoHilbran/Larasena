@@ -16,10 +16,10 @@ const Gallery = () => {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold text-nusantara-deep-red font-inter">
+          <h1 className="text-3xl font-bold text-genz-primary font-poppins">
             Batik Design Gallery
           </h1>
-          <p className="text-nusantara-soft-gold mt-2">
+          <p className="text-genz-turquoise mt-2">
             Explore and create beautiful 3D batik patterns
           </p>
         </div>
@@ -28,7 +28,7 @@ const Gallery = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={() => navigate('/canvas')}
-          className="bg-nusantara-deep-red text-nusantara-cream px-6 py-3 rounded-lg hover:bg-opacity-90 transition-colors font-medium flex items-center space-x-2"
+          className="bg-genz-gradient text-white px-6 py-3 rounded-lg hover:shadow-lg transition-all font-medium flex items-center space-x-2"
         >
           <span className="text-lg">+</span>
           <span>Create New Batik</span>
@@ -43,8 +43,8 @@ const Gallery = () => {
             onClick={() => setSelectedCategory(category)}
             className={`px-4 py-2 rounded-lg transition-colors ${
               selectedCategory === category
-                ? 'bg-nusantara-deep-red text-nusantara-cream'
-                : 'bg-nusantara-warm-beige text-nusantara-deep-red hover:bg-nusantara-light-brown'
+                ? 'bg-genz-gradient text-white'
+                : 'bg-white border border-genz-turquoise/30 text-genz-primary hover:bg-genz-turquoise/10'
             }`}
           >
             {category}

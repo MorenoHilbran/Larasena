@@ -51,6 +51,154 @@ export const batikDesigns = [
   }
 ]
 
+// New: Motif Library Data
+export const motifLibrary = [
+  {
+    id: 1,
+    name: 'Parang Rusak',
+    origin: 'Yogyakarta',
+    style: 'traditional',
+    region: 'jawa',
+    colors: ['#B33F00', '#D8B08C'],
+    description: 'Sacred diagonal pattern worn by royalty',
+    complexity: 'high',
+    popularityScore: 95,
+    image: '/src/assets/motifs/parang-rusak.png'
+  },
+  {
+    id: 2,
+    name: 'Mega Mendung',
+    origin: 'Cirebon',
+    style: 'traditional',
+    region: 'jawa',
+    colors: ['#00BFA6', '#A67B5B'],
+    description: 'Cloud motif symbolizing patience',
+    complexity: 'medium',
+    popularityScore: 88,
+    image: '/src/assets/motifs/mega-mendung.png'
+  },
+  {
+    id: 3,
+    name: 'Kawung',
+    origin: 'Solo',
+    style: 'traditional',
+    region: 'jawa',
+    colors: ['#B33F00', '#F5F0E1'],
+    description: 'Four-circle pattern representing wisdom',
+    complexity: 'medium',
+    popularityScore: 92,
+    image: '/src/assets/motifs/kawung.png'
+  },
+  {
+    id: 4,
+    name: 'Dayak Fusion',
+    origin: 'Kalimantan',
+    style: 'experimental',
+    region: 'kalimantan',
+    colors: ['#FF5E6C', '#00BFA6'],
+    description: 'Modern interpretation of Dayak tribal patterns',
+    complexity: 'high',
+    popularityScore: 76,
+    image: '/src/assets/motifs/dayak-fusion.png'
+  },
+  {
+    id: 5,
+    name: 'Toraja Vibes',
+    origin: 'Sulawesi',
+    style: 'modern',
+    region: 'sulawesi',
+    colors: ['#8B5CF6', '#00D4FF'],
+    description: 'Contemporary take on Torajan geometric patterns',
+    complexity: 'medium',
+    popularityScore: 84,
+    image: '/src/assets/motifs/toraja-vibes.png'
+  },
+  {
+    id: 6,
+    name: 'Sekar Jagad',
+    origin: 'Yogyakarta',
+    style: 'traditional',
+    region: 'jawa',
+    colors: ['#A67B5B', '#B33F00'],
+    description: 'Universe of flowers representing diversity',
+    complexity: 'high',
+    popularityScore: 90,
+    image: '/src/assets/motifs/sekar-jagad.png'
+  },
+  {
+    id: 7,
+    name: 'Phoenix Rising',
+    origin: 'Jakarta',
+    style: 'experimental',
+    region: 'jawa',
+    colors: ['#FF5E6C', '#39FF14'],
+    description: 'Gen-Z interpretation of mythical phoenix',
+    complexity: 'high',
+    popularityScore: 72,
+    image: '/src/assets/motifs/phoenix-rising.png'
+  },
+  {
+    id: 8,
+    name: 'Digital Archipelago',
+    origin: 'Bandung',
+    style: 'experimental',
+    region: 'jawa',
+    colors: ['#00D4FF', '#8B5CF6'],
+    description: 'Pixel art meets traditional Indonesian maps',
+    complexity: 'medium',
+    popularityScore: 68,
+    image: '/src/assets/motifs/digital-archipelago.png'
+  }
+]
+
+// New: My Projects Data
+export const myProjects = [
+  {
+    id: 1,
+    name: 'Summer Vibes Shirt',
+    status: 'completed',
+    lastModified: '2025-07-25',
+    thumbnail: '/shirt_baked.glb',
+    colors: ['#00BFA6', '#FF5E6C'],
+    motif: 'Mega Mendung',
+    model: 'Basic Shirt',
+    description: 'Tropical summer design with modern colors'
+  },
+  {
+    id: 2,
+    name: 'Royal Heritage',
+    status: 'draft',
+    lastModified: '2025-07-24',
+    thumbnail: '/long_sleeve_batik_shirt_2.glb',
+    colors: ['#B33F00', '#D8B08C'],
+    motif: 'Parang Rusak',
+    model: 'Long Sleeve',
+    description: 'Traditional royal pattern for formal occasions'
+  },
+  {
+    id: 3,
+    name: 'Gen-Z Fusion',
+    status: 'draft',
+    lastModified: '2025-07-23',
+    thumbnail: '/women_shirt_batik.glb',
+    colors: ['#8B5CF6', '#00D4FF'],
+    motif: 'Digital Archipelago',
+    model: 'Women Shirt',
+    description: 'Experimental design mixing digital and traditional'
+  },
+  {
+    id: 4,
+    name: 'Neon Kawung',
+    status: 'completed',
+    lastModified: '2025-07-22',
+    thumbnail: '/1_men_batik_shirt_short.glb',
+    colors: ['#39FF14', '#FF5E6C'],
+    motif: 'Kawung',
+    model: 'Short Sleeve',
+    description: 'Traditional motif with electric color palette'
+  }
+]
+
 export const konveksiPartners = [
   {
     id: 1,
@@ -61,7 +209,7 @@ export const konveksiPartners = [
     specialties: ['Hand-drawn Batik', 'Premium Fabrics', 'Custom Orders'],
     minOrder: 50,
     priceRange: 'Rp 150.000 - Rp 500.000',
-    image: '🏭',
+    icon: 'Factory',
     established: 2015,
     employees: '50-100'
   },
@@ -74,7 +222,7 @@ export const konveksiPartners = [
     specialties: ['Heritage Patterns', 'Natural Dyes', 'Sustainable Production'],
     minOrder: 25,
     priceRange: 'Rp 200.000 - Rp 750.000',
-    image: '🎨',
+    icon: 'Palette',
     established: 2010,
     employees: '25-50'
   },
@@ -87,7 +235,7 @@ export const konveksiPartners = [
     specialties: ['Digital Printing', 'Bulk Orders', 'Quick Turnaround'],
     minOrder: 100,
     priceRange: 'Rp 100.000 - Rp 400.000',
-    image: '🏢',
+    icon: 'Building2',
     established: 2018,
     employees: '100+'
   },
@@ -100,7 +248,7 @@ export const konveksiPartners = [
     specialties: ['Coastal Designs', 'Vibrant Colors', 'Export Quality'],
     minOrder: 75,
     priceRange: 'Rp 120.000 - Rp 450.000',
-    image: '🌊',
+    icon: 'Waves',
     established: 2012,
     employees: '75-100'
   },
@@ -113,7 +261,7 @@ export const konveksiPartners = [
     specialties: ['Modern Designs', 'Tech Integration', 'Youth Market'],
     minOrder: 30,
     priceRange: 'Rp 180.000 - Rp 600.000',
-    image: '💡',
+    icon: 'Lightbulb',
     established: 2020,
     employees: '10-25'
   },
@@ -126,7 +274,7 @@ export const konveksiPartners = [
     specialties: ['Eco-Friendly', 'Organic Materials', 'Zero Waste'],
     minOrder: 40,
     priceRange: 'Rp 220.000 - Rp 800.000',
-    image: '🌱',
+    icon: 'Leaf',
     established: 2017,
     employees: '25-50'
   }
@@ -136,28 +284,28 @@ export const modelOptions = [
   { 
     id: 'shirt_baked.glb', 
     name: 'Basic Shirt', 
-    icon: '👔',
+    icon: 'Shirt',
     category: 'casual',
     description: 'Classic everyday shirt'
   },
   { 
     id: '1_men_batik_shirt_short.glb', 
     name: 'Men Short Sleeve', 
-    icon: '👕',
+    icon: 'User',
     category: 'casual',
     description: 'Comfortable short sleeve design'
   },
   { 
     id: 'long_sleeve_batik_shirt_2.glb', 
     name: 'Long Sleeve', 
-    icon: '🧥',
+    icon: 'Coat',
     category: 'formal',
     description: 'Professional long sleeve shirt'
   },
   { 
     id: 'women_shirt_batik.glb', 
     name: 'Women Shirt', 
-    icon: '👚',
+    icon: 'UserCheck',
     category: 'women',
     description: 'Elegant women\'s batik shirt'
   }
@@ -173,6 +321,10 @@ export const aiMotifs = [
 
 export const batikCategories = ['All', 'Traditional', 'Contemporary', 'Modern']
 
+// New: Motif categories and regions
+export const motifStyles = ['All', 'traditional', 'modern', 'experimental']
+export const motifRegions = ['All', 'jawa', 'sumatra', 'kalimantan', 'sulawesi', 'papua']
+
 export const nusantaraColors = {
   'light-brown': '#D8B08C',
   'deep-red': '#B33F00',
@@ -180,4 +332,13 @@ export const nusantaraColors = {
   'soft-gold': '#A67B5B',
   'dark-brown': '#8B4513',
   'warm-beige': '#E6D3B0'
+}
+
+// New: Gen-Z inspired colors
+export const genZColors = {
+  'turquoise': '#00BFA6',
+  'coral': '#FF5E6C',
+  'electric': '#00D4FF',
+  'neon-green': '#39FF14',
+  'purple': '#8B5CF6'
 }
