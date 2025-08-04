@@ -1,4 +1,4 @@
-# 🎨 Larasena - 3D Batik Modelling Platform
+# 🎨 Larasena - Prototype 3D Batik Modelling Platform
 
 **Larasena** is a modern web application for creating and customizing 3D batik patterns with Indonesian Nusantara aesthetic. Design beautiful batik shirts with traditional and contemporary patterns while connecting with local artisan partners.
 
