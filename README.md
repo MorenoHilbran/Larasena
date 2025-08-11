@@ -53,6 +53,8 @@ Visit `http://localhost:3000` to start designing!
 * **HTML2Canvas / FileSaver.js** – For downloading shirt designs
 
 ## 🤝 Contributing
+@nadzarekafah
+@kendikadimas
 
 Contributions are welcome!
 Feel free to fork the project, create a new branch, and submit a pull request.
